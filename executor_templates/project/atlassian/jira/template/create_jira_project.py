@@ -15,8 +15,8 @@ if __name__ == '__main__':
 
     result = {'result': {
         'projectKey': 'TSTPRJ',
-        'projectName': os.environ.get(['PROJECT_NAME'], None),
-        'boardType': os.environ.get(['BOARD_TYPE'], None),
+        'projectName': os.environ.get(['PROJECT_NAME'], 'ProjectName'),
+        'boardType': os.environ.get(['BOARD_TYPE'], 'scrum'),
         'url': 'http://jira.yourcompany.example.com',
         'someValue': tech_util.sum_n_multiply(2)
     }}
