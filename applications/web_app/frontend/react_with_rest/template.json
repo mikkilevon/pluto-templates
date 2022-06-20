@@ -9,6 +9,16 @@
   "postActions": {
     "GitHub": []
   },
+  "inputs": [
+    {
+      "name": "Project name",
+      "description": "Jira project name",
+      "target": "executor",
+      "type": "text",
+      "field": "PROJECT_NAME",
+      "optional": true
+    }
+  ],
   "dockerComposeSnippet": {
     "serviceName": {
       "build": {
