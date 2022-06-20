@@ -16,7 +16,8 @@
       "description": "Jira project name",
       "target": "executor",
       "type": "text",
-      "field": "PROJECT_NAME"
+      "field": "PROJECT_NAME",
+      "optional": true
     },
     {
       "name": "Board type",
@@ -33,7 +34,8 @@
           "text": "Create Scrum board",
           "value": "scrum"
         }
-      ]
+      ],
+      "optional": true
     }
   ],
   "executable": "template/create_jira_project.py",
