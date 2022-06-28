@@ -20,6 +20,13 @@
       "optional": true
     },
     {
+      "name": "CheckBox",
+      "description": "Checkbox test",
+      "target": "executor",
+      "type": "checkbox",
+      "field": "CHECKBOX"
+    },
+    {
       "name": "Board type",
       "description": "Board type",
       "target": "executor",
