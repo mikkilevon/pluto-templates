@@ -13,10 +13,17 @@
     {
       "name": "Project name",
       "description": "Jira project name",
-      "target": "executor",
+      "target": "template",
       "type": "text",
       "field": "PROJECT_NAME",
       "optional": true
+    },
+    {
+      "name": "CheckBox",
+      "description": "Checkbox test",
+      "target": "template",
+      "type": "checkbox",
+      "field": "CHECKBOX"
     }
   ],
   "dockerComposeSnippet": {
